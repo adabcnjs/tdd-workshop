@@ -1,0 +1,33 @@
+{
+  "name": "adajs-workshop-tdd",
+  "version": "1.0.0",
+  "description": "[adaJS] TDD workshop",
+  "main": "src/index.js",
+  "scripts": {
+    "report": "cd ./jest-stare && live-server",
+    "test": "jest --verbose --reporters default jest-stare",
+    "test:watch": "jest --watch",
+    "test:report": "test && report"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.0",
+    "babel-jest": "^24.5.0",
+    "jest": "^24.5.0",
+    "jest-stare": "^1.13.1",
+    "live-server": "^1.2.1"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+  }
+}
