@@ -1,3 +1,3 @@
-export function passwordValidator (password) {
+export default function passwordValidator (password) {
   // TODO
 }
