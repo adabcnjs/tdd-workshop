@@ -1,5 +1,5 @@
 # TDD Workshop
-Initial setup for the TDD workshop
+Code katas for the TDD workshop.
 
 ## Requirements
 - `node` installed
