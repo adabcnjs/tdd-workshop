@@ -7,7 +7,7 @@
     "report": "cd ./jest-stare && live-server",
     "test": "jest --verbose --reporters default jest-stare",
     "test:watch": "jest --watch",
-    "test:report": "test && report"
+    "test:report": "test --verbose --reporters default jest-stare"
   },
   "license": "ISC",
   "devDependencies": {
