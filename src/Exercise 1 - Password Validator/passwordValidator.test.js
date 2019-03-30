@@ -1,8 +1,11 @@
-import passwordValidator from './passwordValidator';
+import isValidPassword from './passwordValidator';
 
-describe("The password validator verifies that a valid password", () => {
+describe("Password Validator", () => {
+  describe("A valid password", () => {
   it("is a string", () => {
     const password = "hello";
-    expect(passwordValidator(password)).toBeTruthy();
+
+      expect(isValidPassword(password)).toBeTruthy();
+    });
   });
 });

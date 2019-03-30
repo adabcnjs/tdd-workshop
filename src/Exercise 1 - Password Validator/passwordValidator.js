@@ -1,3 +1,2 @@
-export default function passwordValidator (password) {
-  // TODO
+export default function isValidPassword (password) {
 }
